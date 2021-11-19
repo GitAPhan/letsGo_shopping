@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+img, iframe {
+  max-width: 100%;
+}
+
+body {
+  background-color: aqua;
+}
+
+.food {
+  overflow: hidden;
+  max-width: 475px;
+}
+
+.food .shell {
+  width: 100%;
+  border: 2px solid white;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.food .shell .mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  background-color: #e08686a1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.food .shell img {
+  display: block;
+  position: relative;
+  width: 100%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.food .shell h2 {
+  display: inline-block;
+  color: white;
+  position: relative;
+  font-size: 1em;
+  font-weight: 800;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 0px 0px 0px white;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  right: calc(50% - 36.5px);
+}
+
+.food .shell p {
+  font-style: italic;
+  font-size: .6em;
+  position: relative;
+  color: white;
+  opacity: 1;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  padding: 0px 5px;
+  font-weight: 600;
+  text-shadow: .5px .5px 1px black;
+}
+
+.food .shell h3 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 5px 0px;
+  font-size: .6em;
+  background: black;
+  color: white;
+  opacity: 1;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-shadow: 0px 0px 0px white;
+  font-weight: 700;
+}
+
+.food .shell:hover img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.food .shell:hover .mask {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.food .shell:hover h2 {
+  color: black;
+  font-size: 1.1em;
+  text-shadow: 1px 1px 2px white;
+  text-align: right;
+  right: 2px;
+}
+
+.food .shell:hover p {
+  opacity: 0;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.food .shell:hover h3 {
+  text-shadow: 2px 2px 3px black;
+  color: white;
+  background: rgba(0, 0, 0, 0.298);
+  font-weight: 900;
+  font-size: .7em;
+}
+/*# sourceMappingURL=selection.css.map */

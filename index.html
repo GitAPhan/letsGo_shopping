@@ -6,15 +6,400 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>letsGo_shopping</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
+	<a href="/pages/selection.html">selection</a>
 
 
 
+	<div class="menu_container">
+
+		<input type="radio" name="menu_catergory" id="appetizer" checked>
+		<input type="radio" name="menu_catergory" id="pasta">
+		<input type="radio" name="menu_catergory" id="pizza">
+		<input type="radio" name="menu_catergory" id="calzone">
+
+		<div class="menu_selector">
+			<label for="appetizer">APPETIZER</label>
+			<label for="pasta">PASTA</label>
+			<label for="pizza">PIZZA</label>
+			<label for="calzone">CALZONE</label>
+		</div>
+
+		<div class="appetizer_container">
+			<div id="tester" onclick="item_selection(this)" class="food appetizer">
+
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/zeaxdpym/79e0f176-f12a-469a-b1cd-4a828302ad7d.jpg
+		   " alt="toasted garlic bread with a small bowl containing marinara sauce">
+					<div class="mask">
+						<h3 class="info">GARLIC BREAD & HOUSEMADE MARINARA</h3>
+						<p class="ingredients">olive oil, fresh garlic, butter, parmesan</p>
+						<h2>5.75</h2>
+					</div>
+				</div>
+
+			</div>
+
+			<div onclick="item_selection(this)" class="food appetizer">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/zeaxdpym/35737703-6732-4d8f-ae84-3ade31971365.jpg
+		" alt="toasted cheesy garlic bread with a small bowl containing marinara sauce">
+					<div class="mask">
+						<h3>CHEESY BREAD & HOUSEMADE MARINARA</h3>
+						<p class="ingredients">olive oil, fresh garlic, butter, parmesan, mozzarella</p>
+						<h2>7.25</h2>
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food appetizer">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/abee6c59-b7e7-4acd-97bc-d3470aceacc3.jpg"
+						alt="roasted artichoke dip in a small skillet with toasted sliced baguettes">
+					<div class="mask">
+						<h3>ROASTED ARTICHOKE DIP</h3>
+						<p class="ingredients">artichoke hearts, fontina, garlic, trio of Italian
+							cheeses, toasted baguette
+						</p>
+						<h2>9.95</h2>
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food appetizer">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/0ca911ee-f981-4ecb-a551-084bf59169b4.jpg
+			" alt="delicious antipasto salad in a white bowl">
+					<div class="mask">
+						<h3>ANTIPASTO</h3>
+						<p class="ingredients">romaine & spring mix, capicola, calabrese salami, mozzarella Fresca,
+							roasted red
+							pepper, grilled roman artichoke, red onion, cherry tomato, country olives, Italian
+							dressing & butter</p>
+						<h2>14.95</h2>
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food appetizer">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/7c3a0e75-b1b8-4462-a181-38065871bf26.jpg"
+						alt="delicious strawberry gorgonzola salad in a white bowl">
+					<div class="mask">
+						<h3>STRAWBERRY GORGONZOLA</h3>
+						<p class="ingredients">baby spinach, housemade candied pecans, strawberry, red onion,
+							gorgonzola, pomegranate vinaigrette</p>
+						<h2>12.95</h2>
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food appetizer">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/1013367f-e2a9-4086-aec1-f9291e0c5681.jpg"
+						alt="a plate of fried golden chicken wings on a plate with celery and carrot sticks, and a metal dipping sauce bowl">
+					<div class="mask">
+						<h3>BIG BOSS CHICKEN WINGS</h3>
+						<p class="ingredients">available in mild, medium, hot, sweet chili or golden BBQ</p>
+						<h2>12.95</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="pasta_container">
+			<div onclick="item_selection(this)" class="food pasta">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/f4a343e9-fd6a-4eed-99bc-0a28cbcd1f9c.jpg"
+						alt="a handful of spaghetti on a plate with a marinara sauce, cut basil and grated parmesan on top">
+					<div class="mask">
+						<h3>SPAGHETTI</h3>
+						<p class="ingredients">Choose from Marinara or Vodka Cream Sauce</p>
+						<h2>9.95</h2>
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food pasta">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/af1e30d9-36f6-40a7-8cd1-72fe3885d07c.jpg"
+						alt="a handful of ravioli on a plate with a marinara sauce, cut basil and grated parmesan on top">
+					<div class="mask">
+						<h3>FOUR CHEESE RAVIOLI</h3>
+						<p class="ingredients">Choose from Marinara or Vodka Cream Sauce</p>
+						<h2>14.50</h2>
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food pasta">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/51c47d2e-079f-495c-a73b-27a68dbc0443.jpg"
+						alt="a bowl of penne with sliced Italian sausage, red & green pepper, red onion and garlic in a vodka cream sauce with fresh cut parsley and grated parmesan on top">
+					<div class="mask">
+						<h3>PENNE ALLA VODKA</h3>
+						<p class="ingredients">Italian sausage, red & green pepper, parmesan, red onion, garlic, vodka
+							cream
+							sauce, fresh parsley</p>
+						<h2>14.50</h2>
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food pasta">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/d793cb40-cefb-4c7e-aadf-1f31b2325f49.jpg"
+						alt="melted mozzarella on a breaded chicken breast on top of a bed of spaghetti in a marinara sauce with fresh cut parsley and grated parmesan on top">
+					<div class="mask">
+						<h3>CHICKEN PARMIGIANA</h3>
+						<p class="ingredients">Italian sausage, red & green pepper, parmesan, red onion, garlic, vodka
+							cream
+							sauce, fresh parsley</p>
+						<h2>16.95</h2>
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food pasta">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/8779061a-c9f9-4abd-9fe9-d45febcb1333.jpg"
+						alt="chicken alfredo in a bowl with a slice of toasted baguette">
+					<div class="mask">
+						<h3>CHICKEN ALFREDO</h3>
+						<p class="ingredients">Italian sausage, red & green pepper, parmesan, red onion, garlic, vodka
+							cream
+							sauce, fresh parsley</p>
+						<h2>16.95</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="pizza_container">
+			<div class="price_container">
+				<h2 class="price">available only in one size</h2>
+			</div>
+			<div onclick="item_selection(this)" class="food pizza">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/dd6a70d6-d75a-4d26-bd5e-3cc886b18c86.jpg"
+						alt="fresh spinach, our secret spice blend, tomatoes, fresh garlic, mozzarella pizza">
+					<div class="mask">
+						<h3>MAMMA'S SIGNATURE</h3>
+						<p class="ingredients">fresh spinach, our secret spice blend, tomatoes, fresh garlic, mozzarella
+						</p>
+
+						<h2>9.85</h2>
 
 
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food pizza">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/9afa75b5-0eec-45e9-9816-5e44c513d1ef.jpg"
+						alt="mushrooms, red onions, black olives, mixed green & red sweet bell peppers, mozzarella pizza">
+					<div class="mask">
+						<h3>VEG OUT</h3>
+						<p class="ingredients">mushrooms, red onions, black olives, mixed green & red sweet bell
+							peppers,
+							mozzarella</p>
+
+						<h2>9.85</h2>
+
+
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food pizza">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/1d012695-6ccf-4a7c-9238-fe1f3303f738.jpg"
+						alt="fresh spinach, our secret spice blend, roasted red peppers, feta, mozzarella pizza">
+					<div class="mask">
+						<h3>L'ITALIANA</h3>
+						<p class="ingredients">fresh spinach, our secret spice blend, roasted red peppers, feta,
+							mozzarella</p>
+
+						<h2>11.85</h2>
+
+
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food pizza">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/90329d69-ea87-44be-992c-7799bb410420.jpg"
+						alt="meatball, pepperoni, red onions, mozzarella pizza">
+					<div class="mask">
+						<h3>SPICY ITALIAN</h3>
+						<p class="ingredients">meatball, pepperoni, red onions, mozzarella</p>
+
+						<h2>17.85</h2>
+
+
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food pizza">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/19258a6b-d21e-4608-8892-acebfa0d603f.jpg"
+						alt="Italian sausage, pepperoni, ham, mushrooms, mixed green & red sweet bell peppers, mozzarella pizza">
+					<div class="mask">
+						<h3>SUPER SIX</h3>
+						<p class="ingredients">Italian sausage, pepperoni, ham, mushrooms, mixed green & red sweet
+							bell peppers, mozzarella</p>
+
+						<h2>19.85</h2>
+
+
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food pizza">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/9bfdb52c-2d31-48b4-b1ab-c5ab732d5714.jpg"
+						alt="chicken, artichoke hearts, red onions, sun-dried tomatoes, mozzarella, basil pesto sauce pizza">
+					<div class="mask">
+						<h3>CHICKEN PRESTO PESTO</h3>
+						<p class="ingredients">chicken, artichoke hearts, red onions, sun-dried tomatoes, mozzarella,
+							basil pesto sauce</p>
+
+
+						<h2>16.50</h2>
+
+
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food pizza">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/9344e446-a150-4b10-979d-b91b86e6060f.jpg"
+						alt="fresh spinach, our secret spice blend, tomatoes, red onions, Kalamata olives, sliced pepperoncini, feta, mozzarella, choice of pizza sauce or extra virgin olive oil pizza">
+					<div class="mask">
+						<h3>DA' GREEK</h3>
+						<p class="ingredients">fresh spinach, our secret spice blend, tomatoes, red onions, Kalamata
+							olives,
+							sliced pepperoncini, feta, mozzarella, choice of pizza sauce or extra virgin olive oil</p>
+
+
+						<h2>20.95</h2>
+
+
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food pizza">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/022d0ff6-6a1e-498f-9f8e-cbbe37276f95.jpg"
+						alt="Italian sausage, Italian beef, pepperoni, smoked Canadian bacon, mozzarella pizza">
+					<div class="mask">
+						<h3>GET MEATY</h3>
+						<p class="ingredients">Italian sausage, Italian beef, pepperoni, smoked
+							Canadian bacon, mozzarella</p>
+
+
+						<h2>21.95</h2>
+
+
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food pizza">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/02fbcf9a-1f02-442e-af29-256c75c60fac.jpg"
+						alt="Italian sausage, red onions, mixed green & red sweet bell peppers, mozzarella pizza">
+					<div class="mask">
+						<h3>THE CHICAGO</h3>
+						<p class="ingredients">Italian sausage, red onions, mixed green & red sweet
+							bell peppers, mozzarella</p>
+
+
+						<h2>20.95</h2>
+
+
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food pizza">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/eb75d032-bab0-4c86-96d6-92241828f895.jpg"
+						alt="tomatoes, fresh basil, extra virgin olive oil, mozzarella, Pecorino Romano pizza">
+					<div class="mask">
+						<h3>MARGHERITA</h3>
+						<p class="ingredients">tomatoes, fresh basil, extra virgin olive oil,
+							mozzarella, Pecorino Romano</p>
+
+						<h2>25.95</h2>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="calzone_container">
+			<div class="price_container">
+				<h2 class="price">available only in one size</h2>
+			</div>
+			<div onclick="item_selection(this)" class="food calzone">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/af83b58c-0b2b-42eb-adda-0d6fe9b2c927.jpg"
+						alt="fresh spinach, our secret spice blend, tomatoes, fresh garlic, mozzarella in a baked calzone">
+					<div class="mask">
+						<h3>MAMMA'S SIGNATURE</h3>
+						<p class="ingredients">fresh spinach, our secret spice blend, tomatoes, fresh garlic, mozzarella
+						</p>
+
+						<h2>7.25</h2>
+
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food calzone">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/420a00f6-b658-4f3c-bbaf-098f7d1c1430.jpg"
+						alt="Italian beef, au jus, red onion, mozzarella, choice of hot giardiniera, mixed sweet bell pepper or jalapeño in a baked calzone">
+					<div class="mask">
+						<h3>CHICAGO STEAK</h3>
+						<p class="ingredients">Italian beef, au jus, red onion, mozzarella, choice of hot giardiniera,
+							mixed
+							sweet bell pepper or jalapeño</p>
+
+						<h2>11.50</h2>
+
+					</div>
+				</div>
+			</div>
+
+			<div onclick="item_selection(this)" class="food calzone">
+				<div class="shell">
+					<img src="https://popmenucloud.com/cdn-cgi/image/width=5760,height=5760,fit=scale-down,format=auto,quality=60/zeaxdpym/6fd4e026-8a34-4b0b-9422-1f922215b00e.jpg"
+						alt="spaghetti, mozzarella, marinara, or vodka cream sauce in a baked calzone">
+					<div class="mask">
+						<h3>BAKED SPAGHETTI</h3>
+						<p class="ingredients">spaghetti, mozzarella, marinara, or vodka cream sauce</p>
+
+						<h2>15.50</h2>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
 
 
 

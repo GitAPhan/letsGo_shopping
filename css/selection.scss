@@ -1,4 +1,14 @@
-@import "global";
 @import "color";
+@import "global";
 @import "header";
 @import "footer";
+
+body {
+    background-color: aqua;
+}
+
+.food {
+    @include image_hover(100%, 100%);
+    overflow : hidden;
+    max-width: 475px;
+}
