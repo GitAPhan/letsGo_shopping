@@ -35,6 +35,14 @@ body {
   text-align: center;
 }
 
+#total {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  font-size: large;
+  font-weight: bolder;
+}
+
 .shell {
   display: -ms-grid;
   display: grid;

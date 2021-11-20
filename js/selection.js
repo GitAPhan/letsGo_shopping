@@ -40,6 +40,9 @@ if (Cookies.get('cart') !== undefined) {
     // converted cookie to objects
     var items_in_cart = JSON.parse(Cookies.get('cart'));
 
+    var total_price_label = document.getElementById('total');
+    var total_price = 0;
+
     // loop to add items
     for (i = 0; i < items_in_cart.length; i++) {
 
@@ -81,7 +84,13 @@ if (Cookies.get('cart') !== undefined) {
         item_container.appendChild(shell_container);
         cart_container.appendChild(item_container);
 
+        // grabbed the price from the items add to variable
+        total_price = total_price + Number(items_in_cart[i].selected_item.Price);
     }
+
+    // display total cost with 2 decimals
+    total_price_label.innerText = 'Total: $' + total_price.toFixed(2);
+
 } else {
     // message
     cart_container.innerText = "you currently don't have any items selected!";

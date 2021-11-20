@@ -36,6 +36,14 @@ body {
     }
 }
 
+#total {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    font-size: large;
+    font-weight: bolder;
+}
+
 .shell {
     display              : grid;
     grid-template-columns: 1fr 5fr;
